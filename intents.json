@@ -1,0 +1,161 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+   
+    {
+      "tag":"name",
+      "patterns":["hey what is your name","what can i call you","introduce yourself"],
+      "responses":["my name is Aafhaana","this is Aafhaa, nice talking to you","Afreed call me as Aafhaana with love"]
+    },
+    {
+      "tag":"grandma",
+      "patterns":["tell me about pyarijaan","my dhadi"],
+      "responses":["pyaari jaaan is your dhaadi and she is very kharaab","pyaari is wife of pyaaru"]
+
+    },
+    {
+      "tag":"sample",
+      "patterns":[
+        "I have a fever",
+        "Iam unwell",
+        "I have high  body temperature","i hve muscle pain"
+      ],
+      "responses":["I can understand that. Tell me more about like any other  symptoms?"]
+      
+    
+    
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "good bye"],
+      "responses": ["good bye"]
+        
+      
+      
+    },
+    {
+      "tag":"parent",
+      "patterns":["tell me about my father","tell about Munawar","what do you know about my papa?"],
+      "responses":["Munawar is your father", "he is fifty four year old and her wife name is thabassum"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag":"cold",
+      "patterns":["Nose stuffiness",
+      "Runny Nose",
+      "Sore throat",
+      "Cough",
+      "Congestion",
+      "Mild headache",
+      "Sneezing",
+      "Malaise",
+      "Fever"],
+      "responses":["you have common cold, if you are in emergency situation take Sinarest tablet after food. would you want me to get hospitals near by you?"]
+    },
+
+    {
+      "tag":"hospital details",
+      "patterns":["yes",
+      "get me hospital details",
+      "show hospitals near by me",
+      "ok show"
+      ],
+      "responses":["enter or say your pincode"]
+    },
+   
+      {
+          "tag":"pincode",
+      "patterns":["572104"
+      ],
+      "responses":["Siddaganga Hospital(2954/139, Bengaluru - Honnavar Road, 7Th Cross, Opp. Vigneshwara Comforts Hotel, Ward No. 18, Ashok Nagar, Tumakuru, Karnataka 572101)"]
+          },
+
+          {
+            "tag":"pincode",
+        "patterns":["572102"
+        ],
+        "responses":["Siddaganga Hospital(2954/139, Bengaluru - Honnavar Road, 7Th Cross, Opp. Vigneshwara Comforts Hotel, Ward No. 18, Ashok Nagar, Tumakuru, Karnataka 572101)"]
+            },
+            {
+              "tag":"pincode",
+          "patterns":["572101"
+          ],
+          "responses":["fortis hospital"]
+              },
+    {
+"tag":"mental disorder",
+"patterns":["heart palpitations and shivering ",
+"restlesness stress"],
+"responses":["you have anxiety disorder, consult the psychiatrist and do not worry everything will be alright"]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
