@@ -23,12 +23,7 @@
       "patterns":["hey what is your name","what can i call you","introduce yourself"],
       "responses":["my name is Aafhaana","this is Aafhaa, nice talking to you","Afreed call me as Aafhaana with love"]
     },
-    {
-      "tag":"grandma",
-      "patterns":["tell me about pyarijaan","my dhadi"],
-      "responses":["pyaari jaaan is your dhaadi and she is very kharaab","pyaari is wife of pyaaru"]
-
-    },
+   
     {
       "tag":"sample",
       "patterns":[
@@ -49,11 +44,7 @@
       
       
     },
-    {
-      "tag":"parent",
-      "patterns":["tell me about my father","tell about Munawar","what do you know about my papa?"],
-      "responses":["Munawar is your father", "he is fifty four year old and her wife name is thabassum"]
-    },
+    
     {
       "tag": "thanks",
       "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
